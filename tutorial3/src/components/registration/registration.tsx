@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { TextField, Button, Box, Container, Typography } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const RegistrationPage: React.FC = () => {
+
+  const navigate = useNavigate();
   const [firstName, setFirstName] = useState<string>('');
   const [lastName, setLastName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
@@ -87,7 +90,7 @@ const RegistrationPage: React.FC = () => {
     }
     // Redirect to profile page
     if (!status) {
-      window.location.href = '/profile';
+      navigate('/profile');
     }
   };
 
