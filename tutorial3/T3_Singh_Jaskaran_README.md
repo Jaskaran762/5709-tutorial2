@@ -2,8 +2,8 @@
 
 * *Date Created*: 10 FEBRUARY 2024
 * *Last Modification Date*: 11 FEBRUARY 2024
-* *Tutorial URL*: <https://main--feature-jaskaran-assignment1.netlify.app/>
-* *Git URL*: <https://git.cs.dal.ca/singh16/csci-5709-assignments/-/tree/main/assignment1>
+* *Tutorial URL*: <https://main--tutorial3-jaskaran-5709.netlify.app/>
+* *Git URL*: <https://git.cs.dal.ca/singh16/csci-5709-tutorials/-/tree/main/tutorial3?ref_type=heads>
 
 ## Authors
 
