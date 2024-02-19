@@ -31,7 +31,7 @@ function App() {
         {/* Redirect any other paths to the login page */}
         <Route
           path="*"
-          element={<Navigate to="/" replace />}
+          element={<LoginPage onLogin={handleLogin} />} 
         />
       </Routes>
     </BrowserRouter>
