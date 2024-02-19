@@ -2,7 +2,7 @@
 
 * *Date Created*: 19 FEBRUARY 2024
 * *Last Modification Date*: 19 FEBRUARY 2024
-* *Tutorial URL*: <https://main--tutorial4-jaskaran-5709.netlify.app//>
+* *Tutorial URL*: <https://main--tutorial4-jaskaran-5709.netlify.app/>
 * *Git URL*: <https://git.cs.dal.ca/singh16/csci-5709-tutorials/-/tree/main/tutorial4?ref_type=heads>
 
 ## Authors
