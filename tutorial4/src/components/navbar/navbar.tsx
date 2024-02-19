@@ -14,7 +14,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLoggedIn }) => {
       <Toolbar>
         <Stack direction="row" alignItems="center" spacing={2} sx={{ flexGrow: 1 }}>
           <Typography variant="h6" component="div">
-            Tutorial3
+            Tutorial4
           </Typography>
           
           {isLoggedIn ? (
