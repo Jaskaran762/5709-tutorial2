@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import LoginPage from "./components/login/login";
 import Navbar from "./components/navbar/navbar";
 import DashboardPage from "./components/dashboard/dashboard";
@@ -31,7 +31,7 @@ function App() {
         {/* Redirect any other paths to the login page */}
         <Route
           path="*"
-          element={<LoginPage onLogin={handleLogin} />} 
+          element={<Navigate to="/" replace />}
         />
       </Routes>
     </BrowserRouter>
