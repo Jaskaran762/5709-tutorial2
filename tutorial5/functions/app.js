@@ -20,4 +20,4 @@ app.listen(PORT, () => {
  */
 
 // for netlify
-export const handler = serverless(api);
+export const handler = serverless(app);

@@ -12,12 +12,8 @@ app.use(bodyParser.json());
 // Routes
 app.use('/users', userRoutes);
 
-/* // Start the server
+// Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
- */
-
-// for netlify
-export const handler = serverless(api);
