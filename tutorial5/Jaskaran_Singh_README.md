@@ -6,10 +6,10 @@
 * *Git URL*: <https://git.cs.dal.ca/singh16/csci-5709-tutorials/-/tree/main/tutorial5?ref_type=heads>
 
 ## REST API URLs
-GET : https://tutorial5-backend.netlify.app/.netlify/functions/app/users
-POST : https://tutorial5-backend.netlify.app/.netlify/functions/app/add
-GET : https://tutorial5-backend.netlify.app/.netlify/functions/app/user/:id
-PUT : https://tutorial5-backend.netlify.app/.netlify/functions/app/update/:id
+* GET : https://tutorial5-backend.netlify.app/.netlify/functions/app/users
+* POST : https://tutorial5-backend.netlify.app/.netlify/functions/app/add
+* GET : https://tutorial5-backend.netlify.app/.netlify/functions/app/user/:id
+* PUT : https://tutorial5-backend.netlify.app/.netlify/functions/app/update/:id
 
 ## Authors
 
