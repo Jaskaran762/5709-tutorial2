@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Routes
-app.use('/users', userRoutes);
+app.use('/.netlify/functions/app/users', userRoutes);
 
 /* // Start the server
 const PORT = process.env.PORT || 3000;
