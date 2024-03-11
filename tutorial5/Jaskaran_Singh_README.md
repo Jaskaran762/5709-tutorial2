@@ -2,8 +2,14 @@
 
 * *Date Created*: 11 MARCH 2024
 * *Last Modification Date*: 11 MARCH 2024
-* *Tutorial URL*: <https://tutorial5-backend.netlify.app/.netlify/functions/app>
+* *Tutorial BASE URL*: <https://tutorial5-backend.netlify.app/.netlify/functions/app>
 * *Git URL*: <https://git.cs.dal.ca/singh16/csci-5709-tutorials/-/tree/main/tutorial5?ref_type=heads>
+
+## REST API URLs
+GET : https://tutorial5-backend.netlify.app/.netlify/functions/app/users
+POST : https://tutorial5-backend.netlify.app/.netlify/functions/app/add
+GET : https://tutorial5-backend.netlify.app/.netlify/functions/app/user/:id
+PUT : https://tutorial5-backend.netlify.app/.netlify/functions/app/update/:id
 
 ## Authors
 
@@ -12,6 +18,7 @@
 ## Deployment
 
 I created a mirror repository on github from gitlab and deployed on netlify. Configued the functions on Netlify as required and the apis are live on above URL.
+
 
 ## Built With
 
