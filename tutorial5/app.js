@@ -1,6 +1,8 @@
 // app.js
 const express = require('express');
+// for netlify
 import serverless from "serverless-http";
+
 const bodyParser = require('body-parser');
 const userRoutes = require('./routes/userRoutes');
 
